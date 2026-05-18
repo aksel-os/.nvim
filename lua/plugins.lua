@@ -1,0 +1,6 @@
+require("plugins.dependencies")
+require("plugins.neoscroll")
+require("plugins.yazi")
+require("plugins.gitsigns")
+require("plugins.telescope")
+require("plugins.markview")
