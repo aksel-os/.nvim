@@ -6,7 +6,6 @@ vim.pack.add({
 require("blink.cmp").setup({
 	keymap = { preset = "enter" },
 	completion = {
-		auto_show = true,
 		documentation = { auto_show = true },
 		ghost_text = { enabled = true },
 	},

@@ -9,4 +9,5 @@ wk.add({
 	{ "<leader>f", group = "find", icon = mini.get("default", "directory") },
 	{ "<leader>g", group = "git", icon = mini.get("filetype", "git") },
 	{ "<leader>c", group = "code", icon = mini.get("lsp", "string") },
+	{ "<leader>t", group = "trouble", icon = mini.get("file", "lint.yml") },
 })
