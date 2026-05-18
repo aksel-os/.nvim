@@ -1,8 +1,20 @@
 {
   "plugins": {
+    "blink.cmp": {
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "blink.lib": {
+      "rev": "f29d8bac6549bc1e7d699c83f680823d7def98bd",
+      "src": "https://github.com/Saghen/blink.lib"
+    },
     "codediff.nvim": {
       "rev": "76ff1b13f0bcba655dca85cea1ef0df877a53c0f",
       "src": "https://github.com/esmuellert/codediff.nvim"
+    },
+    "conform.nvim": {
+      "rev": "18aeab3d63d350dcf44d64c462cc489a3412af40",
+      "src": "https://github.com/stevearc/conform.nvim"
     },
     "fzf-lua": {
       "rev": "3ff77862f6c62f7b850668435ae43aa026de8758",
@@ -35,6 +47,14 @@
     "nvim": {
       "rev": "426dbebe06b5c69fd846ceb17b42e12f890aedf1",
       "src": "https://github.com/catppuccin/nvim"
+    },
+    "nvim-lint": {
+      "rev": "8b06eeec3c674744b993caecd73343df108c052d",
+      "src": "https://github.com/mfussenegger/nvim-lint"
+    },
+    "nvim-lspconfig": {
+      "rev": "3de240997fc3208eb29df5e5c17ba4665961bd84",
+      "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",

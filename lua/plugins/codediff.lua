@@ -1,7 +1,7 @@
 vim.pack.add({
-  "https://github.com/esmuellert/codediff.nvim"
+	"https://github.com/esmuellert/codediff.nvim",
 })
 
 require("codediff").setup({
-  cmd = "CodeDiff"
+	cmd = "CodeDiff",
 })

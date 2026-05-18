@@ -1,10 +1,12 @@
 vim.pack.add({
-  "https://github.com/folke/which-key.nvim"
+	"https://github.com/folke/which-key.nvim",
 })
 
 local wk = require("which-key")
+local mini = require("mini.icons")
 
 wk.add({
-  { "<leader>f", group = "file" },
-  { "<leader>g", group = "git" }
+	{ "<leader>f", group = "find", icon = mini.get("default", "directory") },
+	{ "<leader>g", group = "git", icon = mini.get("filetype", "git") },
+	{ "<leader>c", group = "code", icon = mini.get("lsp", "string") },
 })

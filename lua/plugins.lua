@@ -11,3 +11,9 @@ require("plugins.which-key")
 require("plugins.gitsigns")
 require("plugins.neogit")
 require("plugins.codediff")
+
+-- Tooling
+require("plugins.lint")
+require("plugins.conform")
+require("plugins.blink")
+require("plugins.lspconfig")
