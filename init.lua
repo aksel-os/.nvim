@@ -1,5 +1,5 @@
 require("keymaps")
 require("plugins")
 require("settings")
-require("ui")
+require("theme")
 require("lsp")

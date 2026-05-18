@@ -6,6 +6,6 @@ require("yazi").setup({
   open_for_directories = true
 })
 
-vim.keymap.set('n', "<leader>e", function() require("yazi").yazi() end, {
+vim.keymap.set('n', "<leader>fe", function() require("yazi").yazi() end, {
   desc = "Yazi open file manager"
 })
