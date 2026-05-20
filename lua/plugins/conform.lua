@@ -9,6 +9,7 @@ require("conform").setup({
 		lua = { "stylua" },
 		nix = { "nixfmt" },
 		c = { "astyle" },
+		kotlin = { "ktlint" },
 	},
 
 	format_on_save = {

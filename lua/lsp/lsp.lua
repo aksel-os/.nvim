@@ -30,7 +30,8 @@ local lsps = {
 	{ "clangd" }, -- C* languages
 	{ "gopls" }, -- Go
 	{ "jdtls" }, -- Java
-	{ "nil" }, -- Nix
+	{ "kotlin_lsp" }, -- Kotlin
+	{ "nixd" }, -- Nix
 	{ "basedpyright" }, -- Python
 	{ "lua_ls" }, -- Lua
 	{ "marksman" }, -- Markdown

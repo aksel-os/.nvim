@@ -8,4 +8,5 @@ lint.linters_by_ft = {
 	python = { "ruff" },
 	nix = { "statix" },
 	c = { "clang-tidy" },
+	kotlin = { "ktlint" },
 }
