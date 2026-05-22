@@ -1,10 +1,7 @@
 require("plugins.dependencies")
 require("plugins.mini-icons")
 require("plugins.neoscroll")
-require("plugins.yazi")
--- require("plugins.telescope")
 require("plugins.markview")
-require("plugins.fzf")
 require("plugins.which-key")
 
 -- Git
@@ -18,3 +15,7 @@ require("plugins.conform")
 require("plugins.blink")
 require("plugins.lspconfig")
 require("plugins.trouble")
+
+-- Files
+require("plugins.fzf")
+require("plugins.yazi")

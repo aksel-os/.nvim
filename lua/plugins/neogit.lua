@@ -4,4 +4,4 @@ vim.pack.add({
 
 local neogit = require("neogit")
 
-vim.keymap.set("n", "<leader>gg", neogit.open, { desc = "Neogit open UI" })
+vim.keymap.set("n", "<leader>gg", neogit.open, { desc = "Open UI (Neogit)" })

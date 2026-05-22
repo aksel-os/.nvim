@@ -9,5 +9,5 @@ require("yazi").setup({
 vim.keymap.set("n", "<leader>fe", function()
 	require("yazi").yazi()
 end, {
-	desc = "Yazi open file manager",
+	desc = "Open File Manager (Yazi)",
 })
