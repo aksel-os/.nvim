@@ -11,7 +11,6 @@ vim.opt.expandtab = true
 vim.opt.autoindent = true
 
 -- Line length
-vim.opt.colorcolumn = "80"
 vim.opt.textwidth = 80
 
 vim.g.have_nerd_font = true

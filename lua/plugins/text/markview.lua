@@ -3,5 +3,5 @@ vim.pack.add({
 })
 
 require("markview").setup({
-	preview = { icon_provider = "internal" },
+	preview = { icon_provider = "mini" },
 })
