@@ -1,4 +1,5 @@
 require("plugins.mini-icons")
+require("plugins.treesitter") -- Read note before use
 require("plugins.neoscroll")
 require("plugins.which-key")
 
